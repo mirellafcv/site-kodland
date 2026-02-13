@@ -1,0 +1,65 @@
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
+body {
+    font-family: 'Inter',  sans-serif; /* Font family */
+    font-size: 11px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #b8c5f5; /* A cor do plano de fundo da página */
+    color: #0a0909; /* A cor do texto */
+    border: #5c15b8 solid;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 50px;
+    animation: color-change 3s infinite;
+}
+h1 {
+    color: #5988FF; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+    border: #5c15b8 solid;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 50px;
+    animation: color-change 3s infinite;
+}
+h2 {
+    color: #FD98FB; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+    border: #400b85 solid;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 50px;
+}
+p {
+    color: #D6FF6B; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: 'Inter', serif; /* A font usada no cabeçalho*/
+    border: #14032b solid;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 50px;
+}
+ul {
+    color: #FFFFFF; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+    border: #14032b solid;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 50px;
+}
+h2:hover {
+    color: red
+}
+footer {
+  border: white ridge 1px;
+  box-shadow: 0 0 50px white, 0 0 50px white;
+}
+footer:hover {
+  border-color: #ff0000;
+  box-shadow: 0 0 50px #ff0000, 0 0 50px #ff0000;
+}
